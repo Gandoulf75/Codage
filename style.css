@@ -1,0 +1,32 @@
+body{
+  background-color: #303431;
+  font-size: 25px;
+  font-family: Alegreya SC;
+}
+h1{
+  color: yellow;
+}
+p{
+  color: white;
+}
+#banner{
+  text-align: center;
+  background-image: url("image/alcohol-bar-beer.jpg");
+  background-size: cover;
+  padding: 100px;
+}
+#auteur{
+text-align: right;
+color: red;
+padding-right: 175px;
+font-family: Roboto;
+}
+.styled{
+  background-color: #ffed00;
+  border-color: #ffed00;
+  font-family: Roboto;
+  color: #303431;
+  border-radius: 5px;
+  display: block;
+  margin : auto;
+}
