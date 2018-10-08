@@ -2,6 +2,8 @@ body{
   background-color: #303431;
   font-size: 25px;
   font-family: Alegreya SC;
+  position: relative;
+  width: 100%;
 }
 h1{
   color: yellow;
@@ -29,4 +31,51 @@ font-family: Roboto;
   border-radius: 5px;
   display: block;
   margin : auto;
+}
+#conteneur{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 200px;
+
+}
+button{
+  color: #303134;
+  background-color: #ffed00;
+  border-color: #ffed00;
+  border-radius: 2px;
+  width: 300px;
+  font-family: Roboto;
+  outline: none;
+}
+#image{
+  border-color: yellow; 
+}
+#accroche{
+  text-align: justify-all;
+  font-size: 16px;
+  width: 300px;
+  font-family: Roboto;
+}
+footer{
+  background-color: black;
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  display: auto;
+}
+#conteneur{
+  background-color: white;
+  padding-top: 2px;
+  padding-bottom: 50px;
+}
+#cadre{
+  border: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: #303134;
 }
